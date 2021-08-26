@@ -7,5 +7,7 @@ listaCognomi.push(cognomeUtente);
 listaCognomi.sort();
 console.log(listaCognomi)
 //Scrivere la posizione del nuovo cognome partendo da 1
-alert(("La posizione del tuo cognome in lista è la seguente: ") + (listaCognomi.indexOf (cognomeUtente) +1 ));
+var messaggio = "La posizione del tuo cognome in lista è la seguente: " + (listaCognomi.indexOf (cognomeUtente) +1 );
+    alert(messaggio);
+// alert(("La posizione del tuo cognome in lista è la seguente: ") + (listaCognomi.indexOf (cognomeUtente) +1 ));
 document.getElementById("position").innerHTML = ("La posizione nella lista del tuo cognome è la seguente: ") + (listaCognomi.indexOf (cognomeUtente) +1 );
